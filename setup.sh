@@ -1,2 +1,4 @@
 #!/bin/bash
-find . -type f -exec sed -i 's/{dockerHubUsername}/'$1'/g' {} +
+export LC_CTYPE=C
+export  LANG=C
+find . -type f -exec sed -i '' 's/charleslim/'$1'/g' {} +
